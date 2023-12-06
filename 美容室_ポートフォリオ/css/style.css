@@ -1,0 +1,495 @@
+/* 全部に当てはまるもの */
+li{
+    list-style-type: none;
+    padding-top: 7px;
+}
+a{
+    text-decoration:none;
+}
+a{
+    /* 円の基点とするためrelativeを指定 */
+	position: relative;
+}
+p{
+    line-height: 1.7;
+}
+.section-border{
+    width: 80%;
+    height: 10px;
+    margin: 0 auto;
+    /* background-color: #343434; */
+    border-bottom: #000000;
+    border-width: 10px;
+}
+
+
+
+
+/* header */
+header{
+    display: flex;
+    height: 15vh;
+}
+header div{
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #FFFFFF;
+}
+.header-center{
+    width: 20%;
+    background-color: #343434;
+}
+.header-right{
+    width: 40%;
+}
+.header-left{
+    width: 40%;
+}
+.header-margin{
+    background-color: #343434;
+    height: 50%;
+}
+.header-bottom{
+    display: flex;
+    height: 50%;
+    background-color: #343434;
+    /* background-color: #343434; */
+}
+.header-center h1{
+    color: #FCF5F5;
+    font-size: 35px;
+    padding-left: 16%;
+    padding-top: 13%;
+}
+header a{
+    color: #FCF5F5;
+    font-size: 30px;
+}
+header .header-staff a{
+    padding-left: 33%;
+    /* padding-top: 10px; */
+}
+header .header-contact a{
+    padding-left: 24%;
+}
+header .header-hidari a{
+    padding-left: 33%;;
+}
+header .header-bottom div{
+    width: 50%;
+}
+header .header-bottom a{
+    display: block;
+    padding-top: 10px;
+}
+
+
+
+
+/* first */
+.first{
+    background-image: url(../img/topのコピー.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    display: block;
+    padding-top: 15vh;
+}
+.first div{
+    width: 50%;
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+    background-color:rgba(87,78,78, 0.3);
+}
+.first div h2{
+    padding-top: 15%;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+/* second */
+.second p{
+    text-align: center;
+    margin: 30px auto;
+
+}
+
+
+/* third */       
+.third{
+    width: 90%;/* 以降幅は９0%にすること */
+    height: 700px;
+    margin: 0 auto;
+    background-color: #F8F9F9;
+}
+.third h3{
+    padding-left: 130px;
+    padding-top: 100px;
+    font-size: 25px;
+}
+.third .text-img{
+    display: flex;
+}
+.third .text{
+    background-color: #D7CEBB;
+    width: 39%;
+    height: 50vh;
+    margin-left: 50px;
+    margin-top: 83px;
+}
+.third .text h4 {
+    padding: 50px 17%;
+    padding-top: 70px;
+    font-size: large;
+}
+.third .text p{
+    font-size: large;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+.third p{
+    padding-left: 10%;
+}
+.third h6{
+    text-align: center;
+}
+.third img{
+    width: 46%;
+    height: 60vh;
+    margin-left: 60px;
+}
+
+/* forth */
+.forth{
+    width: 90%;/* 以降幅は９0%にすること */
+    height: 800px;
+    margin: 80px auto;
+    background-color: #F8F9F9;
+}
+.forth .text-img{
+    display: flex;
+}
+.forth .text{
+    background-color: #5B5C76;
+    width: 39%;
+    height: 50vh;
+    margin-left: 60px;
+    margin-top: 90px;
+}
+.forth img{
+    width: 46%;
+    height: 60vh;
+    margin-left: 60px;
+}
+.forth h3{
+    padding-left: 950px;
+    padding-top: 100px;
+    font-size: 25px;
+}
+.forth h4{
+    text-align: center;
+}
+.forth .bottan{
+    width: 120px;
+    height: 50px;
+    margin: 40px auto;
+    background-color: #0B0B0B;
+}
+.forth .bottan a{
+    color: #FCFCFC;
+    font-size: large;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+/* .forth .bottan p{
+    margin-top: 50px;
+} */
+.forth .text p{
+    font-size: large;
+    padding-top: 60px;
+    padding-left: 70px;
+}
+.forth .text h4 {
+    padding: 50px 17%;
+    padding-top: 70px;
+    font-size: large;
+}
+
+
+
+/* fifth */
+.fifth{
+    width: 90%;/* 以降幅は９0%にすること */
+    height: 800px;
+    margin: 50px auto;
+    background-color: #F8F9F9;
+}
+.fifth h3{
+    padding-left: 150px;
+    padding-top: 100px;
+    font-size: 25px;
+}
+.fifth .text-img{
+    display: flex;
+}
+.fifth .text{
+    background-color: #AFA07F;
+    width: 39%;
+    height: 50vh;
+    margin-left: 50px;
+    margin-top: 83px;
+}
+.fifth .text h4 {
+    padding: 50px 20%;
+    font-size: large;
+}
+.fifth p{
+    font-size: large;
+    line-height: 1.7;
+    padding-top: 80px;
+}
+.fifth p{
+    font-size: large;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+.fifth h6{
+    text-align: center;
+}
+.fifth img{
+    width: 46%;
+    height: 60vh;
+    margin-left: 60px;
+}
+.fifth .bottan{
+    width: 120px;
+    height: 50px;
+    margin: 40px auto;
+    background-color: #0B0B0B;
+}
+.fifth .bottan a{
+    color: #FCFCFC;
+    font-size: large;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+
+
+
+
+/* sixth */
+.sixth{
+    background-color: #F8F9F9;
+    width: 90%;
+    height: 260px;
+    margin: 0 auto;
+}
+.sixth{
+    text-align: center;
+}
+.sixth h5{
+    padding-top: 25px;
+    font-size: 25px;
+}
+.sixth p{
+    padding-top: 20px;
+}
+.sixth .bottan{
+    width: 120px;
+    height: 50px;
+    margin: 40px auto;
+    background-color: #0B0B0B;
+}
+.sixth .bottan a{
+    color: #FCFCFC;
+    font-size: large;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+
+
+/* seventh */
+.seventh h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.seventh iframe{
+    width: 100%;
+    height: 595px;
+    margin-bottom: 85px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #000000;
+    text-align: center;
+}
+footer div{
+    height: 300px;
+    background-color: #B4ADAD;
+}
+footer h4{
+    color: #FCF5F5;
+    font-family: Tiffin Latin VF;
+    font-size: 40px;
+    padding-top: 50px;
+}
+footer div p{
+    margin-top: 60px;
+}
+footer small{
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* menu.html */
+.menu-center{
+    width: 85%;
+    height: 2700px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    background-color: #E6E4E4;
+}
+.menu-center h2{
+    text-align: center;
+    font-size: 100px;
+}
+.menu-center section div{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.menu-center h4{
+padding-left: 180px;
+font-size: 60px;
+}
+.menu-center li{
+    font-size: 25px;
+    /* 行間しっかりすることしっかりすること */
+}
+.menu-html .tyu{
+    margin-left: 1200px;
+    margin-bottom: 60px;
+}
+
+
+
+
+/* staff.html */
+.staff-center{
+    width: 70%;
+    margin-left: 9%;
+}
+.staff-html h2{
+    margin-top: 70px;
+    margin-left: 9.2%;
+    font-size: 40px;
+}
+.staff-html h4{
+    font-size: 30px;
+}
+.staff-html img{
+    width: 250px;
+    height: 280px;
+    border: solid;
+    border-width: 0.1px;
+}
+.staff-html .people{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.staff-html .seventh{
+    margin-top: 50px;
+}
+
+
+
+
+/* contact.html */
+
+.contact-html h2{
+    text-align: center;
+    font-size: 70px;
+}
+.contact-html p{
+    text-align: center;
+    padding-top: 30px;
+}
+.contact-pos{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    background: rgba(255,255,255,.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"] {
+    width: 500px;
+    background-color: rgba(163,163,163,0.4);
+}
+textarea {
+    width: 600px;
+    height: 6rem;
+    background-color: rgba(163,163,163,0.4);
+}
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+.contact-html footer{
+    margin-top: 50px;
+}
+.contact-html .button {
+    font-size: 1.375rem;
+    background: #000000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
